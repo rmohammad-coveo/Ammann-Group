@@ -34,6 +34,10 @@ export const FacetConfig = [
   {
     field:"language",
     title:"language"
+  },
+  {
+    field:"item_type",
+    title:"Item Type"
   }
 ] as const;
 
@@ -168,13 +172,13 @@ export const SearchPageTabConfig : SearchPageTabConfigType[] = [
     caption: "Plants",
     expression: `@source==Sitemap - plant`,
     isActive: false,
-    facetToInclude: facetsList
+    facetToInclude: ["concepts", "item_type"]
   },
   {
     caption: "Youtube",
     expression: `@filetype=="youtubevideo"`,
     isActive: false,
-    facetToInclude: facetsList,
+    facetToInclude: ["concepts", "item_type"],
   },
   {
     caption: "News",

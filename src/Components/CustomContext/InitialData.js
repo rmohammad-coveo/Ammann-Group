@@ -28,8 +28,8 @@ export const InitialData = [
     context: [
       {
         active: true,
-        keyName: "language",
-        keyValue: "English",
+        keyName: "purchase_interest",
+        keyValue: "vibratory plates",
         customQRF: false,
       }
     ],
@@ -42,8 +42,8 @@ export const InitialData = [
     context: [
       {
         active: true,
-        keyName: "language",
-        keyValue: "Spanish",
+        keyName: "purchase_interest",
+        keyValue: "tandem rollers",
         customQRF: false,
       }
     ],

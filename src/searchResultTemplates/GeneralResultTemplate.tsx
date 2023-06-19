@@ -125,7 +125,7 @@ const GeneralResultTemplate: React.FC<{ result: Result, QuickViewOnClick : boole
 
     const imageURLLong = result.raw.image ? result.raw.image as string : result.raw.news_image as string;
     const imageURLArray = imageURLLong.split(";");
-    const imageURL = imageURLArray[0];
+    const imageURL = imageURLArray[1];
 
   return (
     <>
@@ -237,7 +237,7 @@ const IconImage = styled.img`
 `;
 
 const ItemImage = styled.img`
-  
+  max-height: 150px;
 `;
 
 const TextWrapper = styled.div`
