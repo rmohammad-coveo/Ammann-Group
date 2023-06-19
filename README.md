@@ -1,8 +1,8 @@
 # Financial Service Demo Powered by Coveo
 
-The project is hosted live [here](https://fin-serv-coveo.web.app).
+The project is hosted live [here](https://demo-ammann-group.netlify.app/).
 
-The initial UI was created using [Coveo CLI - ui:create:react](https://docs.coveo.com/en/cli/#coveo-uicreatereact-name).
+This project was created on top of cloning the Financial Service Demo
 
 ## Prerequisite
 
