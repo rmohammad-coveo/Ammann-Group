@@ -1,0 +1,32 @@
+@page {
+  size: landscape;
+}
+html {
+  height: auto;
+  overflow: auto;
+}
+
+.admin {
+  display: inherit;
+  height: initial;
+  overflow: auto;
+}
+.admin .header,
+.admin .navigation-status-container {
+  display: none;
+}
+.admin .application-container {
+  height: auto;
+}
+.admin .panel-header {
+  min-height: 0;
+  padding: 0 20px 5px;
+  background-color: transparent;
+  border: none;
+}
+.admin .panel-header .actions-buttons {
+  display: none;
+}
+.admin .print-only {
+  display: initial;
+}
